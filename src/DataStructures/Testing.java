@@ -3,6 +3,31 @@ package DataStructures;
 public class Testing {
     public static void main(String[] args) {
 
+
+//DOUBLY LINKED LIST WITH STRINGS
+
+        DoubleNodeStrings n1 = new DoubleNodeStrings("William");
+        DoubleNodeStrings n2 = new DoubleNodeStrings("Roger");
+        DoubleNodeStrings n3 = new DoubleNodeStrings("Anderson");
+
+        DoublyLinkedListStrings proof = new DoublyLinkedListStrings();
+
+        proof.pushBack(n1);
+
+        proof.regularPrintLinkedList();
+
+        proof.pushBack(n2);
+
+        proof.regularPrintLinkedList();
+
+        proof.pushFront(n3);
+
+        proof.regularPrintLinkedList();
+
+//        String name = "James";
+//        String name2 = "Valery";
+//
+//        System.out.println(name2.equals(name));
 /*
         DoubleNode n1 = new DoubleNode(2);
         DoubleNode n2 = new DoubleNode(3);
