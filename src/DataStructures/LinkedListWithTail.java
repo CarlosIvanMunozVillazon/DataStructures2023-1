@@ -18,33 +18,33 @@ public class LinkedListWithTail {
         return tail;
     }
 
+//    public void printLinkedListWithTail(){
+//        if(isEmpty()){
+//            System.out.println("The linked list with tail is empty.");
+//        }else{
+//            Node headRef = this.head;
+//            while(headRef != null){
+//                System.out.print(headRef.getData() + " ");
+//                headRef = headRef.getNext();
+//            }
+//        }
+//    }
+
+//     UNCODE print
     public void printLinkedListWithTail(){
         if(isEmpty()){
             System.out.println("The linked list with tail is empty.");
         }else{
             Node headRef = this.head;
-            while(headRef != null){
+            while(headRef.getNext() != null){
                 System.out.print(headRef.getData() + " ");
                 headRef = headRef.getNext();
+
             }
+            System.out.print(headRef.getData());
+
         }
     }
-
-    // UNCODE print
-//    public void printLinkedListWithTail(){
-//        if(isEmpty()){
-//            System.out.println("The linked list with tail is empty.");
-//        }else{
-//            DataStructures.Node headRef = this.head;
-//            while(headRef.getNext() != null){
-//                System.out.print(headRef.getData() + " ");
-//                headRef = headRef.getNext();
-//
-//            }
-//            System.out.print(headRef.getData());
-//
-//        }
-//    }
 
 
     public boolean isEmpty(){
