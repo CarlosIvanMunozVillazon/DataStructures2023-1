@@ -2,9 +2,9 @@ package DataStructures;
 
 public class StaticArrayList {
 
-    int [] list;
-    int size;
-    int capacity;
+    private int [] list;
+    private int size;
+    private int capacity;
 
     public StaticArrayList (int setCapacity){
         this.capacity = setCapacity;
