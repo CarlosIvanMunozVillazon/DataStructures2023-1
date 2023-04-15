@@ -3,26 +3,41 @@ package DataStructures;
 public class Testing {
     public static void main(String[] args) {
 
+//TESTING FOR EXAM 1 : DATA STRUCTURES
 
+        DoubleNode n1 = new DoubleNode(1);
+        DoubleNode n2 = new DoubleNode(2);
+        DoubleNode n3 = new DoubleNode(3);
+        DoubleNode n4 = new DoubleNode(4);
+
+        DoublyLinkedList myList = new DoublyLinkedList();
+
+        myList.pushBack(n1);
+        myList.pushBack(n2);
+        myList.pushBack(n3);
+        myList.pushBack(n4);
+
+        System.out.println(myList.find(6));
 //DOUBLY LINKED LIST WITH STRINGS
 
-        DoubleNodeStrings n1 = new DoubleNodeStrings("William");
-        DoubleNodeStrings n2 = new DoubleNodeStrings("Roger");
-        DoubleNodeStrings n3 = new DoubleNodeStrings("Anderson");
+//        DoubleNodeStrings n1 = new DoubleNodeStrings("William");
+//        DoubleNodeStrings n2 = new DoubleNodeStrings("Roger");
+//        DoubleNodeStrings n3 = new DoubleNodeStrings("Anderson");
+//
+//        DoublyLinkedListStrings proof = new DoublyLinkedListStrings();
+//
+//        proof.pushBack(n1);
+//
+//        proof.regularPrintLinkedList();
+//
+//        proof.pushBack(n2);
+//
+//        proof.regularPrintLinkedList();
+//
+//        proof.pushFront(n3);
+//
+//        proof.regularPrintLinkedList();
 
-        DoublyLinkedListStrings proof = new DoublyLinkedListStrings();
-
-        proof.pushBack(n1);
-
-        proof.regularPrintLinkedList();
-
-        proof.pushBack(n2);
-
-        proof.regularPrintLinkedList();
-
-        proof.pushFront(n3);
-
-        proof.regularPrintLinkedList();
 
 //        String name = "James";
 //        String name2 = "Valery";
